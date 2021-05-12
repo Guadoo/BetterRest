@@ -29,6 +29,7 @@ struct ContentView: View {
                 
                 VStack(alignment: .leading, spacing: 0) {
                     Text("When do you want to wake up?")
+                        .font(.headline)
                     DatePicker(
                         "Please enter a time",
                         selection: $wakeup,
